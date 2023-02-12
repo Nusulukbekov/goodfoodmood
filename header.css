@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Black.woff2') format('woff2'),
+        url('./fonts/Gilroy-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'circular';
+    src: url('./fonts/CircularStd-Book.woff2') format(woff2);
+    src: url('./fonts/CircularStd-Book.woff') format(woff);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    padding-left: 0; /* Сдвигаем список влево */
+}
+
+img{
+    vertical-align: top;
+}
+
+body{
+    color: rgb(0, 0, 0);
+    font-family: 'Gilroy';
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* =============Шапка======================== */
+
+._container{
+    display: flex;
+    justify-content: center;
+}
+
+.header-line-nav{
+    display: flex;
+    width: 1171px;
+    height: 33px;
+    margin: 46px 215px 134px 215px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-icons{
+}
+
+.icons-of-nav{
+    margin-right: 67px;
+}
+
+.sandwichnav{
+    position: absolute;
+    left: 40%;
+    top: 1%;
+}
+
+/* =========Осн=Текст======================================== */
+
+.container{
+    width: 1171px;
+    margin: 0px 215px 0px 365px;
+}
+
+.restaurant{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+    color: #FF9401;
+    font-size: 24px;
+}
+
+.good-food-mood{
+    font-size: 96px;
+}
+
+.oO{
+    margin: 40px -10px 40px -20px;
+}
+
+.Oo{
+    margin: 22px -60px 0px -100px;
+}
+
+.food-mood{
+    margin: -5% 0px 0px;
+    font-size: 96px;
+}
+
+.mood{
+    margin: 45px -10px  ;
+}
+
+.good-food__comment{
+    font-size: 20px;
+    font-family: 'circular';
+    margin: -5px -10px;
+    color: #3F3232;
+}
+
+.good-food__img{
+    margin: -200px 170px;
+}
+
+.good-food__img2{
+    margin: -300px 450px;
+}
+
+.good-food-elipse1__img{
+    position: absolute;
+    margin: 20px 600px;
+}
+
+.good-food-elipse2__img{
+    position: absolute;
+    margin: -100px 365px;
+}
+
+.good-food-elipse3__img{
+    position: absolute;
+    margin: -100px 830px;
+}
